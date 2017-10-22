@@ -1,0 +1,234 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   '@angular/cli',
+1 verbose cli   '@angular/compiler-cli',
+1 verbose cli   '@angular/language-service' ]
+2 info using npm@3.10.3
+3 info using node@v6.5.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData @angular/cli@^1.18.2
+8 silly fetchPackageMetaData @angular/compiler-cli
+9 silly fetchPackageMetaData @angular/language-service
+10 silly fetchNamedPackageData @angular/cli
+11 silly mapToRegistry name @angular/cli
+12 silly mapToRegistry scope (from package name) @angular
+13 verbose mapToRegistry no registry URL found in name for scope @angular
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry https://registry.npmjs.org/
+16 silly mapToRegistry data Result {
+16 silly mapToRegistry   raw: '@angular/cli',
+16 silly mapToRegistry   scope: '@angular',
+16 silly mapToRegistry   escapedName: '@angular%2fcli',
+16 silly mapToRegistry   name: '@angular/cli',
+16 silly mapToRegistry   rawSpec: '',
+16 silly mapToRegistry   spec: 'latest',
+16 silly mapToRegistry   type: 'tag' }
+17 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcli
+18 silly fetchNamedPackageData @angular/compiler-cli
+19 silly mapToRegistry name @angular/compiler-cli
+20 silly mapToRegistry scope (from package name) @angular
+21 verbose mapToRegistry no registry URL found in name for scope @angular
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry data Result {
+24 silly mapToRegistry   raw: '@angular/compiler-cli',
+24 silly mapToRegistry   scope: '@angular',
+24 silly mapToRegistry   escapedName: '@angular%2fcompiler-cli',
+24 silly mapToRegistry   name: '@angular/compiler-cli',
+24 silly mapToRegistry   rawSpec: '',
+24 silly mapToRegistry   spec: 'latest',
+24 silly mapToRegistry   type: 'tag' }
+25 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcompiler-cli
+26 silly fetchNamedPackageData @angular/language-service
+27 silly mapToRegistry name @angular/language-service
+28 silly mapToRegistry scope (from package name) @angular
+29 verbose mapToRegistry no registry URL found in name for scope @angular
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry data Result {
+32 silly mapToRegistry   raw: '@angular/language-service',
+32 silly mapToRegistry   scope: '@angular',
+32 silly mapToRegistry   escapedName: '@angular%2flanguage-service',
+32 silly mapToRegistry   name: '@angular/language-service',
+32 silly mapToRegistry   rawSpec: '',
+32 silly mapToRegistry   spec: 'latest',
+32 silly mapToRegistry   type: 'tag' }
+33 silly mapToRegistry uri https://registry.npmjs.org/@angular%2flanguage-service
+34 verbose request uri https://registry.npmjs.org/@angular%2fcli
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 4:29:55 PM
+37 verbose request id 99a142846d95185b
+38 http request GET https://registry.npmjs.org/@angular%2fcli
+39 verbose request uri https://registry.npmjs.org/@angular%2fcompiler-cli
+40 verbose request no auth needed
+41 info attempt registry request try #1 at 4:29:55 PM
+42 http request GET https://registry.npmjs.org/@angular%2fcompiler-cli
+43 verbose request uri https://registry.npmjs.org/@angular%2flanguage-service
+44 verbose request no auth needed
+45 info attempt registry request try #1 at 4:29:55 PM
+46 http request GET https://registry.npmjs.org/@angular%2flanguage-service
+47 http 200 https://registry.npmjs.org/@angular%2flanguage-service
+48 verbose headers { 'content-type': 'application/json',
+48 verbose headers   server: 'nginx/1.10.3',
+48 verbose headers   'last-modified': 'Thu, 19 Oct 2017 00:36:52 GMT',
+48 verbose headers   etag: 'W/"59e7f3a4-18e2e"',
+48 verbose headers   'content-encoding': 'gzip',
+48 verbose headers   'cache-control': 'max-age=0',
+48 verbose headers   'transfer-encoding': 'chunked',
+48 verbose headers   'accept-ranges': 'bytes',
+48 verbose headers   date: 'Sun, 22 Oct 2017 11:01:21 GMT',
+48 verbose headers   via: '1.1 varnish',
+48 verbose headers   age: '0',
+48 verbose headers   connection: 'keep-alive',
+48 verbose headers   'x-served-by': 'cache-sin18026-SIN',
+48 verbose headers   'x-cache': 'MISS',
+48 verbose headers   'x-cache-hits': '0',
+48 verbose headers   'x-timer': 'S1508670082.709093,VS0,VE221',
+48 verbose headers   vary: 'Accept-Encoding' }
+49 silly get cb [ 200,
+49 silly get   { 'content-type': 'application/json',
+49 silly get     server: 'nginx/1.10.3',
+49 silly get     'last-modified': 'Thu, 19 Oct 2017 00:36:52 GMT',
+49 silly get     etag: 'W/"59e7f3a4-18e2e"',
+49 silly get     'content-encoding': 'gzip',
+49 silly get     'cache-control': 'max-age=0',
+49 silly get     'transfer-encoding': 'chunked',
+49 silly get     'accept-ranges': 'bytes',
+49 silly get     date: 'Sun, 22 Oct 2017 11:01:21 GMT',
+49 silly get     via: '1.1 varnish',
+49 silly get     age: '0',
+49 silly get     connection: 'keep-alive',
+49 silly get     'x-served-by': 'cache-sin18026-SIN',
+49 silly get     'x-cache': 'MISS',
+49 silly get     'x-cache-hits': '0',
+49 silly get     'x-timer': 'S1508670082.709093,VS0,VE221',
+49 silly get     vary: 'Accept-Encoding' } ]
+50 verbose get saving @angular/language-service to C:\Users\BIKESH verma\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252flanguage-service\.cache.json
+51 verbose correctMkdir C:\Users\BIKESH verma\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+52 http 200 https://registry.npmjs.org/@angular%2fcompiler-cli
+53 verbose headers { 'content-type': 'application/json',
+53 verbose headers   server: 'nginx/1.10.3',
+53 verbose headers   'last-modified': 'Thu, 19 Oct 2017 00:36:37 GMT',
+53 verbose headers   etag: 'W/"59e7f395-2ac44"',
+53 verbose headers   'content-encoding': 'gzip',
+53 verbose headers   'cache-control': 'max-age=0',
+53 verbose headers   'transfer-encoding': 'chunked',
+53 verbose headers   'accept-ranges': 'bytes',
+53 verbose headers   date: 'Sun, 22 Oct 2017 11:01:22 GMT',
+53 verbose headers   via: '1.1 varnish',
+53 verbose headers   age: '0',
+53 verbose headers   connection: 'keep-alive',
+53 verbose headers   'x-served-by': 'cache-sin18022-SIN',
+53 verbose headers   'x-cache': 'MISS',
+53 verbose headers   'x-cache-hits': '0',
+53 verbose headers   'x-timer': 'S1508670082.738772,VS0,VE794',
+53 verbose headers   vary: 'Accept-Encoding' }
+54 silly get cb [ 200,
+54 silly get   { 'content-type': 'application/json',
+54 silly get     server: 'nginx/1.10.3',
+54 silly get     'last-modified': 'Thu, 19 Oct 2017 00:36:37 GMT',
+54 silly get     etag: 'W/"59e7f395-2ac44"',
+54 silly get     'content-encoding': 'gzip',
+54 silly get     'cache-control': 'max-age=0',
+54 silly get     'transfer-encoding': 'chunked',
+54 silly get     'accept-ranges': 'bytes',
+54 silly get     date: 'Sun, 22 Oct 2017 11:01:22 GMT',
+54 silly get     via: '1.1 varnish',
+54 silly get     age: '0',
+54 silly get     connection: 'keep-alive',
+54 silly get     'x-served-by': 'cache-sin18022-SIN',
+54 silly get     'x-cache': 'MISS',
+54 silly get     'x-cache-hits': '0',
+54 silly get     'x-timer': 'S1508670082.738772,VS0,VE794',
+54 silly get     vary: 'Accept-Encoding' } ]
+55 verbose get saving @angular/compiler-cli to C:\Users\BIKESH verma\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fcompiler-cli\.cache.json
+56 verbose correctMkdir C:\Users\BIKESH verma\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+57 http 200 https://registry.npmjs.org/@angular%2fcli
+58 verbose headers { 'content-type': 'application/json',
+58 verbose headers   server: 'nginx/1.10.3',
+58 verbose headers   'last-modified': 'Thu, 19 Oct 2017 23:36:26 GMT',
+58 verbose headers   etag: 'W/"59e936fa-36ba1"',
+58 verbose headers   'content-encoding': 'gzip',
+58 verbose headers   'cache-control': 'max-age=0',
+58 verbose headers   'transfer-encoding': 'chunked',
+58 verbose headers   'accept-ranges': 'bytes',
+58 verbose headers   date: 'Sun, 22 Oct 2017 11:01:22 GMT',
+58 verbose headers   via: '1.1 varnish',
+58 verbose headers   age: '0',
+58 verbose headers   connection: 'keep-alive',
+58 verbose headers   'x-served-by': 'cache-sin18029-SIN',
+58 verbose headers   'x-cache': 'MISS',
+58 verbose headers   'x-cache-hits': '0',
+58 verbose headers   'x-timer': 'S1508670082.712551,VS0,VE975',
+58 verbose headers   vary: 'Accept-Encoding' }
+59 silly get cb [ 200,
+59 silly get   { 'content-type': 'application/json',
+59 silly get     server: 'nginx/1.10.3',
+59 silly get     'last-modified': 'Thu, 19 Oct 2017 23:36:26 GMT',
+59 silly get     etag: 'W/"59e936fa-36ba1"',
+59 silly get     'content-encoding': 'gzip',
+59 silly get     'cache-control': 'max-age=0',
+59 silly get     'transfer-encoding': 'chunked',
+59 silly get     'accept-ranges': 'bytes',
+59 silly get     date: 'Sun, 22 Oct 2017 11:01:22 GMT',
+59 silly get     via: '1.1 varnish',
+59 silly get     age: '0',
+59 silly get     connection: 'keep-alive',
+59 silly get     'x-served-by': 'cache-sin18029-SIN',
+59 silly get     'x-cache': 'MISS',
+59 silly get     'x-cache-hits': '0',
+59 silly get     'x-timer': 'S1508670082.712551,VS0,VE975',
+59 silly get     vary: 'Accept-Encoding' } ]
+60 verbose get saving @angular/cli to C:\Users\BIKESH verma\AppData\Roaming\npm-cache\registry.npmjs.org\_40angular_252fcli\.cache.json
+61 verbose correctMkdir C:\Users\BIKESH verma\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+62 silly fetchPackageMetaData Error: No compatible version found: @angular/cli@^1.18.2
+62 silly fetchPackageMetaData Valid install targets:
+62 silly fetchPackageMetaData 1.5.0-rc.2, 1.5.0-rc.1, 1.5.0-rc.0, 1.5.0-beta.4, 1.5.0-beta.3, 1.5.0-beta.2, 1.5.0-beta.1, 1.5.0-beta.0, 1.4.9, 1.4.8, 1.4.7, 1.4.6, 1.4.5, 1.4.4, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.4.0-rc.2, 1.4.0-rc.1, 1.4.0-rc.0, 1.4.0-beta.2, 1.4.0-beta.1, 1.4.0-beta.0, 1.3.2, 1.3.1, 1.3.0, 1.3.0-rc.5, 1.3.0-rc.4, 1.3.0-rc.3, 1.3.0-rc.2, 1.3.0-rc.1, 1.3.0-rc.0, 1.3.0-beta.1, 1.3.0-beta.0, 1.2.8, 1.2.7, 1.2.6, 1.2.5, 1.2.4, 1.2.3, 1.2.2, 1.2.1, 1.2.0, 1.2.0-rc.1, 1.2.0-rc.0, 1.2.0-beta.1, 1.2.0-beta.0, 1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.1.0-rc.2, 1.1.0-rc.1, 1.1.0-rc.0, 1.1.0-beta.1, 1.1.0-beta.0, 1.0.6, 1.0.5, 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 1.0.0-rc.4, 1.0.0-rc.3, 1.0.0-rc.2, 1.0.0-rc.1, 1.0.0-rc.0, 1.0.0-beta.33.1, 1.0.0-beta.33, 1.0.0-beta.32.3, 1.0.0-beta.32.2, 1.0.0-beta.32, 1.0.0-beta.31, 1.0.0-beta.30, 1.0.0-beta.29, 1.0.0-beta.28.3
+62 silly fetchPackageMetaData
+62 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (C:\Program Files (x86)\nodejs\node_modules\npm\lib\fetch-package-metadata.js:170:16)
+62 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+62 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\pulse-till-done.js:20:8
+62 silly fetchPackageMetaData     at saved (C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache\caching-client.js:174:7)
+62 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:210:7
+62 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+62 silly fetchPackageMetaData  error for @angular/cli@^1.18.2 Error: No compatible version found: @angular/cli@^1.18.2
+62 silly fetchPackageMetaData Valid install targets:
+62 silly fetchPackageMetaData 1.5.0-rc.2, 1.5.0-rc.1, 1.5.0-rc.0, 1.5.0-beta.4, 1.5.0-beta.3, 1.5.0-beta.2, 1.5.0-beta.1, 1.5.0-beta.0, 1.4.9, 1.4.8, 1.4.7, 1.4.6, 1.4.5, 1.4.4, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.4.0-rc.2, 1.4.0-rc.1, 1.4.0-rc.0, 1.4.0-beta.2, 1.4.0-beta.1, 1.4.0-beta.0, 1.3.2, 1.3.1, 1.3.0, 1.3.0-rc.5, 1.3.0-rc.4, 1.3.0-rc.3, 1.3.0-rc.2, 1.3.0-rc.1, 1.3.0-rc.0, 1.3.0-beta.1, 1.3.0-beta.0, 1.2.8, 1.2.7, 1.2.6, 1.2.5, 1.2.4, 1.2.3, 1.2.2, 1.2.1, 1.2.0, 1.2.0-rc.1, 1.2.0-rc.0, 1.2.0-beta.1, 1.2.0-beta.0, 1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.1.0-rc.2, 1.1.0-rc.1, 1.1.0-rc.0, 1.1.0-beta.1, 1.1.0-beta.0, 1.0.6, 1.0.5, 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 1.0.0-rc.4, 1.0.0-rc.3, 1.0.0-rc.2, 1.0.0-rc.1, 1.0.0-rc.0, 1.0.0-beta.33.1, 1.0.0-beta.33, 1.0.0-beta.32.3, 1.0.0-beta.32.2, 1.0.0-beta.32, 1.0.0-beta.31, 1.0.0-beta.30, 1.0.0-beta.29, 1.0.0-beta.28.3
+62 silly fetchPackageMetaData
+62 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (C:\Program Files (x86)\nodejs\node_modules\npm\lib\fetch-package-metadata.js:170:16)
+62 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+62 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\pulse-till-done.js:20:8
+62 silly fetchPackageMetaData     at saved (C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache\caching-client.js:174:7)
+62 silly fetchPackageMetaData     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:210:7
+62 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+63 silly rollbackFailedOptional Starting
+64 silly rollbackFailedOptional Finishing
+65 silly runTopLevelLifecycles Starting
+66 silly runTopLevelLifecycles Finishing
+67 silly install printInstalled
+68 verbose stack Error: No compatible version found: @angular/cli@^1.18.2
+68 verbose stack Valid install targets:
+68 verbose stack 1.5.0-rc.2, 1.5.0-rc.1, 1.5.0-rc.0, 1.5.0-beta.4, 1.5.0-beta.3, 1.5.0-beta.2, 1.5.0-beta.1, 1.5.0-beta.0, 1.4.9, 1.4.8, 1.4.7, 1.4.6, 1.4.5, 1.4.4, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.4.0-rc.2, 1.4.0-rc.1, 1.4.0-rc.0, 1.4.0-beta.2, 1.4.0-beta.1, 1.4.0-beta.0, 1.3.2, 1.3.1, 1.3.0, 1.3.0-rc.5, 1.3.0-rc.4, 1.3.0-rc.3, 1.3.0-rc.2, 1.3.0-rc.1, 1.3.0-rc.0, 1.3.0-beta.1, 1.3.0-beta.0, 1.2.8, 1.2.7, 1.2.6, 1.2.5, 1.2.4, 1.2.3, 1.2.2, 1.2.1, 1.2.0, 1.2.0-rc.1, 1.2.0-rc.0, 1.2.0-beta.1, 1.2.0-beta.0, 1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.1.0-rc.2, 1.1.0-rc.1, 1.1.0-rc.0, 1.1.0-beta.1, 1.1.0-beta.0, 1.0.6, 1.0.5, 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 1.0.0-rc.4, 1.0.0-rc.3, 1.0.0-rc.2, 1.0.0-rc.1, 1.0.0-rc.0, 1.0.0-beta.33.1, 1.0.0-beta.33, 1.0.0-beta.32.3, 1.0.0-beta.32.2, 1.0.0-beta.32, 1.0.0-beta.31, 1.0.0-beta.30, 1.0.0-beta.29, 1.0.0-beta.28.3
+68 verbose stack
+68 verbose stack     at pickVersionFromRegistryDocument (C:\Program Files (x86)\nodejs\node_modules\npm\lib\fetch-package-metadata.js:170:16)
+68 verbose stack     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\iferr\index.js:13:50
+68 verbose stack     at C:\Program Files (x86)\nodejs\node_modules\npm\lib\utils\pulse-till-done.js:20:8
+68 verbose stack     at saved (C:\Program Files (x86)\nodejs\node_modules\npm\lib\cache\caching-client.js:174:7)
+68 verbose stack     at C:\Program Files (x86)\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:210:7
+68 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+69 verbose cwd F:\Frontier
+70 error Windows_NT 10.0.10240
+71 error argv "C:\\Program Files (x86)\\nodejs\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "@angular/cli" "@angular/compiler-cli" "@angular/language-service"
+72 error node v6.5.0
+73 error npm  v3.10.3
+74 error No compatible version found: @angular/cli@^1.18.2
+74 error Valid install targets:
+74 error 1.5.0-rc.2, 1.5.0-rc.1, 1.5.0-rc.0, 1.5.0-beta.4, 1.5.0-beta.3, 1.5.0-beta.2, 1.5.0-beta.1, 1.5.0-beta.0, 1.4.9, 1.4.8, 1.4.7, 1.4.6, 1.4.5, 1.4.4, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.4.0-rc.2, 1.4.0-rc.1, 1.4.0-rc.0, 1.4.0-beta.2, 1.4.0-beta.1, 1.4.0-beta.0, 1.3.2, 1.3.1, 1.3.0, 1.3.0-rc.5, 1.3.0-rc.4, 1.3.0-rc.3, 1.3.0-rc.2, 1.3.0-rc.1, 1.3.0-rc.0, 1.3.0-beta.1, 1.3.0-beta.0, 1.2.8, 1.2.7, 1.2.6, 1.2.5, 1.2.4, 1.2.3, 1.2.2, 1.2.1, 1.2.0, 1.2.0-rc.1, 1.2.0-rc.0, 1.2.0-beta.1, 1.2.0-beta.0, 1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.1.0-rc.2, 1.1.0-rc.1, 1.1.0-rc.0, 1.1.0-beta.1, 1.1.0-beta.0, 1.0.6, 1.0.5, 1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0, 1.0.0-rc.4, 1.0.0-rc.3, 1.0.0-rc.2, 1.0.0-rc.1, 1.0.0-rc.0, 1.0.0-beta.33.1, 1.0.0-beta.33, 1.0.0-beta.32.3, 1.0.0-beta.32.2, 1.0.0-beta.32, 1.0.0-beta.31, 1.0.0-beta.30, 1.0.0-beta.29, 1.0.0-beta.28.3
+75 error If you need help, you may report this error at:
+75 error     <https://github.com/npm/npm/issues>
+76 verbose exit [ 1, true ]

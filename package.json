@@ -4,21 +4,24 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "angular-ui-router": "^1.0.3",
+    "@angular/cli": "^1.4.9",
+    "@angular/compiler-cli": "^4.4.6",
+    "@angular/language-service": "^4.4.6",
+    "@uirouter/angularjs": "^1.0.3",
     "body-parser": "^1.18.2",
-    "cli": "^1.0.1",
     "express": "^4.15.4",
     "underscore": "^1.8.3"
   },
   "devDependencies": {},
   "scripts": {
-    "ng":"ng",
+    "ng": "ng",
     "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "ng build --aot --target=production"
   },
-  "engines" : {
-      "node":"v6.5.0",
-      "npm": "3.10.3"
+  "engines": {
+    "node": "v8.7.0",
+    "npm": "5.4.2"
   },
   "author": "",
   "license": "ISC"
