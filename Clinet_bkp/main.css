@@ -1,0 +1,59 @@
+.packagePannel {
+    height: 300px;
+    width: 220px; 
+    padding: 5px;
+}
+
+.packagePannel.alignContent {
+    
+    margin-top: 100px;
+}
+
+.productPannel {
+    margin-top: 6px;
+    height: 402px;
+    width: 600px;  
+    position:absolute;
+    left:220px;
+    top:110px;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+
+.customerPannel {
+    margin-top: 6px;
+    height: 195px;
+    width: 200px;  
+    position:absolute;
+    left:824px;
+    top:110px;
+    border-radius: 5px;
+    border: 1px solid deepskyblue;
+    overflow:auto
+}
+
+.prodInfoPannel {
+    margin-top: 6px;
+    height: 202px;
+    width: 200px;  
+    position:absolute;
+    left:824px;
+    top:310px;
+    border-radius: 5px;
+    border: 1px solid deepskyblue;
+    overflow:auto
+}
+
+.box {
+    float: left;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid blue;
+}
+
+.custom {  
+    width: 150px !important;
+    margin-left: 30px;
+}

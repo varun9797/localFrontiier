@@ -1,0 +1,26 @@
+
+<div ng-class= "panel"  ng-controller="productInfoController">
+    
+    <div class="panel-body prodInfoPannel">
+        <b>Product Summary</b>
+        <div ng-repeat = "items in customer.quoteItems">
+            <table>
+                    <col width="20px" />
+                    <col width="230px" />
+                    <col width="30px" />
+             <tr>
+                <td> <button ng-click="" aria-label="Close Account Info Modal Box">&times;</button></td>
+                <td>{{items.Name}}</td>
+                 <td>{{items.Price}}</td>
+             </tr>
+            </table>
+            <!--<li>{{items.Name}} - {{items.Price}}
+            </li> -->
+        </div>  
+        
+       
+    </div>
+    <div class="panel-body productTotal">
+        Total ------------------------------------ {{getTotal()}}
+    </div>
+</div>

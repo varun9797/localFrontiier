@@ -1,0 +1,16 @@
+
+<div  ng-class= "panel">
+    <div ng-show="!showConfig" class="panel-body  productPannel" ng-controller="productController">
+        <div ng-if="$root.showVoice" ng-repeat="prodDesc in voiceProductArray">
+            <button class="box" ng-click="viewConfig(prodDesc)">{{prodDesc.Name}}</button>
+        </div>
+        
+        <div ng-if="$root.showVideo" ng-repeat="prodDesc in videoProductArray">
+            <button class="box" ng-click="viewConfig(prodDesc)">{{prodDesc.Name}}</button>
+        </div>
+        <div ng-if="$root.showBroadband" ng-repeat="prodDesc in broadbandProductArray">
+            <button class="box" ng-click="viewConfig(prodDesc)">{{prodDesc.Name}}{{$index}}</button>
+        </div>
+    </div>
+
+</div>

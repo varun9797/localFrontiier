@@ -1,0 +1,22 @@
+
+<div ng-class= "panel">
+    <div ng-show="showConfig" class="panel-body  productPannel" ng-controller="productConfigController">
+        
+        
+        
+        <div class="tile">1) Name{{productInfo.Name}}<br>
+            2) Description {{productInfo.Discription}}<br>
+            3) Price {{productInfo.Price}}<br>
+            <div ng-repeat="promo in productInfo.Promos">
+                <button class="promoBox">1)promo Name :- {{promo.Name}}<br>
+                2)promo Date :- {{promo.date}}<br>
+                3)Duration In Month :- {{promo.DurationInMonth}}<br>
+                   
+                </button>
+            </div>
+            </div>
+        <button class="btn btn-prmary" ng-click="hideConfigFun()">Back</button>
+        <button class="btn btn-prmary" ng-click="saveQuoteItem();">Save</button>
+        
+    </div>
+</div>

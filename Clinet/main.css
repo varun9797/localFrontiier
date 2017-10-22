@@ -1,0 +1,91 @@
+.packagePannel {
+    height: 300px;
+    width: 220px; 
+    padding: 5px;
+}
+
+.packagePannel.alignContent {
+    
+    margin-top: 100px;
+}
+
+.productPannel {
+    margin-top: 6px;
+    height: 402px;
+    width: 600px;  
+    position:absolute;
+    left:220px;
+    top:110px;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+
+.customerPannel {
+    margin-top: 6px;
+    height: 155px;
+    width: 350px;  
+    position:absolute;
+    left:824px;
+    top:110px;
+    border-radius: 5px;
+    border: 1px solid deepskyblue;
+    overflow:auto
+}
+
+.prodInfoPannel {
+    margin-top: 6px;
+    height: 192px;
+    width: 350px;  
+    position:absolute;
+    left:824px;
+    top:270px;
+    border-radius: 5px;
+    border: 1px solid deepskyblue;
+    overflow:auto
+}
+
+.productTotal {
+    margin-top: 6px;
+    height: 50px;
+    width: 300px;  
+    position:absolute;
+    left:824px;
+    top:465px;
+    border-radius: 5px;
+    border: 1px solid deepskyblue;
+    overflow:auto
+}
+
+.box {
+    float: left;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid blue;
+}
+
+.custom {  
+    width: 150px !important;
+    margin-left: 30px;
+}
+
+.tile {
+    background-color: lightgrey;
+    width: 500px;
+    height: 300px;
+    border: 5px solid green;
+    padding: 5px;
+    margin: 25px;
+    overflow:auto;
+}
+
+.promoBox {
+    background-color: lightgrey;
+    width: 300px;
+    height: 100px;
+    border: 1px solid green;
+    padding: 5px;
+    margin: 25px;
+    overflow:auto;
+}

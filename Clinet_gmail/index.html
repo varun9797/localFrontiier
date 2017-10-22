@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=11">
+
+<title>AngularJS</title>
+<script type="text/javascript" src="../MongoDB/app.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="main.css">
+<script language="JavaScript" type="text/javascript" src="Scripts/jquery-1.2.6.js"></script>
+<script src="Scripts/underscore.js"></script>
+<script src="Scripts/angular-underscore-module.js"></script>
+<script src="Scripts/angular-ui-router.js"></script>
+<script type="text/javascript" src="entryPoint.js"></script>
+<script type="text/javascript" src="Common/services.js"></script>
+<script type="text/javascript" src="Package/package.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="LoginPage/login.js"></script>
+<script type="text/javascript" src="Product/product.js"></script>
+<script type="text/javascript" src="CustomerInfo/customerInfo.js"></script>
+<script type="text/javascript" src="/ProductInfo/productInfo.js"></script>
+<script type="text/javascript" src="/ProductConfig/ProductConfig.js"></script>
+<base href="/">
+
+</head>
+<body ng-app="app">
+	<div resizable r-directions="['right', 'bottom']" r-flex="true" ng-controller="HelloController">
+		<!--div prod-header>
+		</div>      
+        <div package-type>
+		</div>       
+        <div prod-config>
+        </div>
+        <div product-type>
+		</div>
+        <div customer-info>
+		</div>
+        <div product-info>
+		</div-->
+            
+        <div ui-view></div> 
+
+	</div>	
+</body>
+</html>

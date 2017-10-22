@@ -1,0 +1,31 @@
+<div style="width:400px; margin:0 auto;">
+<h1>Login Page</h1>
+<div>
+    url {{url}}
+Phone Number   <input type="text" ng-model="Pno">
+                <input type="submit" class="btn btn-info" ng-click="findUser(Pno)" value="Find">
+        <input type="button" class="btn btn-info" ng-click="checkservice()" value="check">
+     <table class="table table-striped">
+    <thead>
+      <tr> 
+        <th>customerName</th>
+        <th>userId</th>
+        <th>phoneNumber</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{customer.customerName}}</td>
+        <td>{{customer.userId}}</td>
+        <td>{{customer.phoneNumber}}</td>
+        <td ng-if="customer.customerName">
+            <input type="button" class="btn btn-info" ng-click="goToProdPage()" value="Resume">
+        </td> 
+      </tr>
+      
+    </tbody>
+  </table>
+    
+  
+</div>
+</div>
