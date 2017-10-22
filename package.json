@@ -6,12 +6,20 @@
   "dependencies": {
     "angular-ui-router": "^1.0.3",
     "body-parser": "^1.18.2",
+    "cli": "^1.0.1",
     "express": "^4.15.4",
     "underscore": "^1.8.3"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "ng":"ng",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "ng build --aot --target=production"
+  },
+  "engines" : {
+      "node":"v6.5.0",
+      "npm": "3.10.3"
   },
   "author": "",
   "license": "ISC"
