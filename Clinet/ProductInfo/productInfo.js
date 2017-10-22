@@ -27,6 +27,7 @@ var app = app.controller("productInfoController", ['$scope', 'dbServices', '$roo
                 $scope.myWelcome = response.statusText;
             });
     }
+    
     $rootScope.$on("getQuoteItem", function (b, data) {
         console.log("checking broadcast...");
         var quoteId = $stateParams.quoteId;
